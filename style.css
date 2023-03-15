@@ -1,0 +1,47 @@
+
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/coverphoto.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 5rem;
+}
+.hero_desc {
+    font-size: 4.5rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    
+}
+
+/* spacing on all sections */
+/* #about, #services,  #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+    
+}
+/* about section image css */
+.imageAboutPage {
+   
+    width: 90%;
+    
+}
+
+
+.card-title {
+    text-align: center;
+}
+
